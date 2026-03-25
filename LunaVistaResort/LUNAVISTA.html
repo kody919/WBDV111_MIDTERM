@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZitowResort</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="LUNAVISTA.html">
+	<img src="zitowresorttransparent.png" alt="ZitowResort Logo" class="logo">
+	ZitowResort
+	</a>
+    <nav aria-label="Primary">
+      <ul class="menu">
+        <li><a href="LUNAVISTA.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="aboutus.html">About ZitowResort</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <video
+      class="hero-video"
+      autoplay
+      muted
+      loop
+      playsinline
+      poster="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1600&q=80"
+      aria-label="Aerial view of a tropical beach resort">
+      <source src="https://cdn.coverr.co/videos/coverr-relaxing-by-the-sea-5587/1080p.mp4" type="video/mp4">
+    </video>
+    <div class="hero-shade" aria-hidden="true"></div>
+
+    <section class="login-card" aria-label="Member login">
+      <h1>ZitowResort</h1>
+      <p>Sign in to view our room rates, travel dates, and your itinerary.</p>
+      <form class="login-form" id="loginForm">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Enter your email" required>
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="Enter your password" required>
+
+        <button type="submit" a href="reservation.html">Login</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p> © 2026 ZitowResort. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
